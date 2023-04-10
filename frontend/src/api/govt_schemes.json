@@ -1,0 +1,406 @@
+[
+    {
+     "State": "All India",
+     "Scheme_Name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+     "Description": " This is an insurance scheme for farmers that provides financial assistance in case of crop loss due to natural calamities. Under the PMFBY scheme, farmers pay a premium of 2% of the sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for annual commercial and horticultural crops. The remaining premium is paid by the government. The sum insured is fixed based on the scale of finance for each crop.",
+     "Eligibilty_criteria": "The scheme is applicable to all food and oilseed crops, horticultural crops, and commercial and annual crops. Farmers can enroll for the scheme for any of the notified crops in their area. However, the scheme is voluntary, and farmers can choose whether or not to enroll.",
+     "Links": "https:\/\/pmfby.gov.in\/"
+    },
+    {
+     "State": "All India",
+     "Scheme_Name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+     "Description": "This scheme aims to enhance the productivity of crops by providing water to farmers for irrigation purposes. The PMKSY scheme focuses on the development of water resources for agricultural purposes, and it has four components.",
+     "Eligibilty_criteria": " Available to all farmers in India who are dependent on irrigation for their crops, as well as to other stakeholders involved in the irrigation supply chain. The scheme is primarily implemented by state governments, and interested farmers and stakeholders can contact the State Irrigation Department or the concerned nodal agency in their state to apply for the scheme.",
+     "Links": "https:\/\/pmksy.gov.in\/"
+    },
+    {
+     "State": "All India",
+     "Scheme_Name": "Soil Health Card Scheme",
+     "Description": "This scheme aims to provide soil health cards to farmers, which contain information about the soil quality and fertility of their land. Under the Soil Health Card Scheme, soil health cards are issued to farmers after their soil samples are tested in accredited soil testing labs. These cards contain information on the soil health status of the farmer's land and provide recommendations on the type and quantity of nutrients that need to be added to the soil to improve its fertility.",
+     "Eligibilty_criteria": "all farmers in India can apply for the Soil Health Card Scheme. The scheme is implemented through a network of soil testing labs, and farmers can apply by contacting their nearest agriculture department office or visiting the website of the Department of Agriculture and Cooperation.",
+     "Links": "https:\/\/soilhealth.dac.gov.in\/"
+    },
+    {
+     "State": "Delhi",
+     "Scheme_Name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+     "Description": "This scheme promotes organic farming and provides financial assistance to farmers who adopt organic farming practices.",
+     "Eligibilty_criteria": "Paramparagat Krishi Vikas Yojana (PKVY) is available to all farmers in India, and the scheme focuses on promoting organic farming practices on a cluster-based approach. Farmers can apply for the scheme by forming a group or cluster and contacting the nearest agriculture department office or visiting the website of the Ministry of Agriculture and Farmers' Welfare.",
+     "Links": "https:\/\/dmsouthwest.delhi.gov.in\/hi\/scheme\/%E0%A4%AA%E0%A4%B0%E0%A4%82%E0%A4%AA%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%BE%E0%A4%A6-%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8-%E0%A4%AF%E0%A5%8B%E0%A4%9C\/#:~:text=2015%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%B2%E0%A5%89%E0%A4%A8%E0%A5%8D%E0%A4%9A%20%E0%A4%AA%E0%A4%B0%E0%A4%AE%E0%A5%8D%E0%A4%AA%E0%A4%B0%E0%A4%BE%E0%A4%97%E0%A4%A4%20%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF,%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%B8%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%B0%20%E0%A4%B9%E0%A5%81%E0%A4%86%20%E0%A4%B9%E0%A5%88%E0%A5%A4",
+     "Column6": "mark"
+    },
+    {
+     "State": "All India",
+     "Scheme_Name": "Kisan Credit Card Scheme",
+     "Description": "This scheme provides farmers with credit facilities to meet their agricultural needs. To apply for the Kisan Credit Card scheme, farmers can approach any bank branch or cooperative society that is authorized to issue KCCs. The application process is straightforward and involves submitting basic identity and address proofs, as well as land and crop-related documents, to the bank or cooperative society.",
+     "Eligibilty_criteria": "all farmers in India, including small and marginal farmers, sharecroppers, oral lessees, and tenant farmers, are eligible to apply for the Kisan Credit Card scheme. The scheme aims to provide farmers with access to affordable credit for their agricultural activities, and the application process is simple and easy to follow.",
+     "Links": "https:\/\/pib.gov.in\/FactsheetDetails.aspx?Id=148600"
+    },
+    {
+     "State": "All India",
+     "Scheme_Name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+     "Description": "This scheme aims to promote the development of the agricultural sector by providing financial assistance to states and Union Territories for various agricultural activities. Farmers and other stakeholders in the agriculture and allied sectors can indirectly benefit from the RKVY scheme through the implementation of various projects and activities proposed by the state governments and union territories.",
+     "Eligibilty_criteria": "Rashtriya Krishi Vikas Yojana (RKVY) is available to all state governments and union territories in India, which can propose projects and activities that aim to promote sustainable agriculture and allied sectors. Farmers and other stakeholders in the agriculture and allied sectors can indirectly benefit from the RKVY scheme through the implementation of various projects and activities proposed by the state governments and union territories.",
+     "Links": "https:\/\/rkvy.nic.in\/"
+    },
+    {
+     "State": "All India",
+     "Scheme_Name": "National Agriculture Market (eNAM)",
+     "Description": "This is an online platform that connects farmers with traders and buyers, allowing them to sell their produce directly without intermediaries.",
+     "Eligibilty_criteria": "all farmers, traders, and buyers with a valid PAN card, Aadhaar card, and bank account can apply to use the National Agriculture Market (eNAM) platform. The eNAM platform aims to provide farmers with an opportunity to sell their produce beyond their local markets and get better prices for their produce, while also providing traders and buyers with access to a larger number of sellers and an efficient way to purchase agricultural produce.",
+     "Links": "https:\/\/www.enam.gov.in\/web\/"
+    },
+    {
+     "State": "Odisha",
+     "Scheme_Name": "Krushak Assistance for Livelihood and Income Augmentation (KALIA)",
+     "Description": "This scheme provides financial assistance to small and marginal farmers, landless farmers, and vulnerable agricultural households. Under this scheme, beneficiaries receive financial assistance for cultivation, input cost, livelihood, and insurance.",
+     "Eligibilty_criteria": "The scheme also provides financial assistance for personal emergencies such as medical expenses and education.\n\nThe following are the eligibility criteria to apply for the KALIA scheme in Odisha:\n\nThe applicant must be a resident of Odisha.\nThe applicant must be a small and marginal farmer, landless agricultural household, or vulnerable agricultural household.\nThe applicant must have a bank account.\nThe applicant must not be a member of any other social security scheme.",
+     "Links": "https:\/\/www.kalia.co.in\/"
+    },
+    {
+     "State": "Odisha",
+     "Scheme_Name": "Mukhya Mantri Krushi Udyog Yojana",
+     "Description": "This scheme aims to promote agro-based industries and agri-entrepreneurship in the state. It provides subsidies and incentives to farmers, entrepreneurs, and agro-based industries.",
+     "Eligibilty_criteria": "The following are the eligibility criteria for availing the benefits of the scheme:\n\nThe applicant should be a resident of Odisha.\nThe applicant should be at least 18 years of age.\nThe applicant should have a minimum qualification of 10th pass.\nThe applicant should not have a criminal record.\nThe applicant should have a viable business plan for setting up agro-based industries such as food processing units, agro-processing units, etc.\nThe applicant should have a bank account.\nThe applicant should have a PAN card.\nThe applicant should not have availed any benefits under any other government scheme for setting up the same or a similar type of industry.",
+     "Links": "https:\/\/odishaeiz.gov.in\/"
+    },
+    {
+     "State": "Odisha",
+     "Scheme_Name": "Mukhya Mantri Abhinav Krushi Yantrapati Samman Yojana",
+     "Description": "This scheme provides financial assistance to farmers for purchasing farm machinery and equipment. Under this scheme, farmers can receive a subsidy of up to 50% of the cost of the machinery.",
+     "Eligibilty_criteria": "The following are the eligibility criteria for the scheme:\n\nThe applicant must be a resident of Odisha.\n\nThe applicant must be a farmer.\n\nThe applicant should have a valid Aadhaar card.\n\nThe applicant must possess a minimum of 2.5 acres of land for which he\/she must have valid land documents.\n\nThe applicant must have a savings bank account in a nationalized bank.\n\nThe applicant must have a PAN card.\n\nThe applicant should not have defaulted on any loans from any bank or financial institution.\n\nThe applicant should not have availed any other subsidy or benefits for the same machinery under any other scheme.",
+     "Links": "http:\/\/agriodisha.nic.in\/"
+    },
+    {
+     "State": "Odisha",
+     "Scheme_Name": "Odisha Integrated Irrigation Project for Climate Resilient Agriculture",
+     "Description": "This scheme aims to provide irrigation facilities to farmers in drought-prone areas. It provides financial assistance for the development of irrigation infrastructure and water conservation measures.",
+     "Eligibilty_criteria": "The following are the eligibility criteria for the scheme:\n\nThe applicant must be a farmer or a group of farmers.\n\nThe applicant must own or lease agricultural land in Odisha.\n\nThe applicant must have a valid Aadhaar card.\n\nThe applicant must possess a minimum of 2.5 acres of land for which he\/she must have valid land documents.\n\nThe applicant must have a savings bank account in a nationalized bank.\n\nThe applicant must have a PAN card.\n\nThe applicant should not have defaulted on any loans from any bank or financial institution.\n\nThe applicant should not have availed any other subsidy or benefits for the same machinery under any other scheme.",
+     "Links": "http:\/\/www.dowrorissa.gov.in\/"
+    },
+    {
+     "State": "Odisha",
+     "Scheme_Name": "Odisha Millets Mission",
+     "Description": "This scheme aims to promote millets cultivation in the state, which is known for its resilience to climate change and its nutritional value. Under this scheme, farmers receive financial assistance for cultivation, seed procurement, and post-harvest management.",
+     "Eligibilty_criteria": "The following are the eligibility criteria for the scheme:\n\nThe applicant must be a farmer or a group of farmers.\n\nThe applicant must own or lease agricultural land in Odisha.\n\nThe applicant must have a valid Aadhaar card.\n\nThe applicant must possess a minimum of 0.5 acre of land for which he\/she must have valid land documents.\n\nThe applicant must have a savings bank account in a nationalized bank.\n\nThe applicant must have a PAN card.\n\nThe applicant should not have defaulted on any loans from any bank or financial institution.\n\nThe applicant should not have availed any other subsidy or benefits for the same crop under any other scheme.",
+     "Links": "http:\/\/agriodisha.nic.in\/schemes\/odisha-millets-mission\/"
+    },
+    {
+     "State": "Punjab",
+     "Scheme_Name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+     "Description": " This is an insurance scheme for farmers that provides financial assistance in case of crop loss due to natural calamities. Under the PMFBY scheme, farmers pay a premium of 2% of the sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for annual commercial and horticultural crops. The remaining premium is paid by the government. The sum insured is fixed based on the scale of finance for each crop.",
+     "Eligibilty_criteria": "The scheme is applicable to all food and oilseed crops, horticultural crops, and commercial and annual crops. Farmers can enroll for the scheme for any of the notified crops in their area. However, the scheme is voluntary, and farmers can choose whether or not to enroll.",
+     "Links": "https:\/\/pmfby.gov.in\/"
+    },
+    {
+     "State": "Punjab",
+     "Scheme_Name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+     "Description": "This scheme aims to enhance the productivity of crops by providing water to farmers for irrigation purposes. The PMKSY scheme focuses on the development of water resources for agricultural purposes, and it has four components.",
+     "Eligibilty_criteria": " Available to all farmers in India who are dependent on irrigation for their crops, as well as to other stakeholders involved in the irrigation supply chain. The scheme is primarily implemented by state governments, and interested farmers and stakeholders can contact the State Irrigation Department or the concerned nodal agency in their state to apply for the scheme.",
+     "Links": "https:\/\/pmksy.gov.in\/"
+    },
+    {
+     "State": "Punjab",
+     "Scheme_Name": "Pradhan Mantri Krishi Sampada Yojana (PMKSY)",
+     "Description": "This scheme aims to promote food processing industries and create employment opportunities in rural areas. The scheme includes various components such as infrastructure development, value addition, and market linkage.",
+     "Eligibilty_criteria": "Farmers, individuals, groups of farmers, cooperatives, companies, NGOs, and other organizations involved in the agriculture and food processing sector can apply for the scheme.\n\nThe scheme is open to all states and union territories in India.\n\nThe applicant should have a valid business plan and project report for the proposed food processing project.\n\nThe project should be technically and financially viable, and should have the potential to generate employment opportunities.\n\nThe project should adhere to all relevant regulations and guidelines related to food safety, quality, and standards.\n\nThe applicant should have the necessary infrastructure and facilities to undertake food processing activities.\n\nThe applicant should have a good track record and financial history, and should not have defaulted on any previous loans or government schemes.",
+     "Links": "https:\/\/pmksy.gov.in\/"
+    },
+    {
+     "State": "Punjab",
+     "Scheme_Name": "Kisan Credit Card Scheme",
+     "Description": "This scheme provides farmers with credit facilities to meet their agricultural needs. To apply for the Kisan Credit Card scheme, farmers can approach any bank branch or cooperative society that is authorized to issue KCCs. The application process is straightforward and involves submitting basic identity and address proofs, as well as land and crop-related documents, to the bank or cooperative society.",
+     "Eligibilty_criteria": "all farmers in India, including small and marginal farmers, sharecroppers, oral lessees, and tenant farmers, are eligible to apply for the Kisan Credit Card scheme. The scheme aims to provide farmers with access to affordable credit for their agricultural activities, and the application process is simple and easy to follow.",
+     "Links": "https:\/\/pib.gov.in\/FactsheetDetails.aspx?Id=148600"
+    },
+    {
+     "State": "Punjab",
+     "Scheme_Name": "Soil Health Card Scheme",
+     "Description": "This scheme aims to provide soil health cards to farmers, which contain information about the soil quality and fertility of their land. Under the Soil Health Card Scheme, soil health cards are issued to farmers after their soil samples are tested in accredited soil testing labs. These cards contain information on the soil health status of the farmer's land and provide recommendations on the type and quantity of nutrients that need to be added to the soil to improve its fertility.",
+     "Eligibilty_criteria": "all farmers in India can apply for the Soil Health Card Scheme. The scheme is implemented through a network of soil testing labs, and farmers can apply by contacting their nearest agriculture department office or visiting the website of the Department of Agriculture and Cooperation.",
+     "Links": "https:\/\/soilhealth.dac.gov.in\/"
+    },
+    {
+     "State": "Punjab",
+     "Scheme_Name": "National Agriculture Market (eNAM)",
+     "Description": "This is an online platform that connects farmers with traders and buyers, allowing them to sell their produce directly without intermediaries.",
+     "Eligibilty_criteria": "all farmers, traders, and buyers with a valid PAN card, Aadhaar card, and bank account can apply to use the National Agriculture Market (eNAM) platform. The eNAM platform aims to provide farmers with an opportunity to sell their produce beyond their local markets and get better prices for their produce, while also providing traders and buyers with access to a larger number of sellers and an efficient way to purchase agricultural produce.",
+     "Links": "https:\/\/www.enam.gov.in\/web\/"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+     "Description": " This is an insurance scheme for farmers that provides financial assistance in case of crop loss due to natural calamities. Under the PMFBY scheme, farmers pay a premium of 2% of the sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for annual commercial and horticultural crops. The remaining premium is paid by the government. The sum insured is fixed based on the scale of finance for each crop.",
+     "Eligibilty_criteria": "The scheme is applicable to all food and oilseed crops, horticultural crops, and commercial and annual crops. Farmers can enroll for the scheme for any of the notified crops in their area. However, the scheme is voluntary, and farmers can choose whether or not to enroll.",
+     "Links": "https:\/\/pmfby.gov.in\/"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+     "Description": "This scheme aims to enhance the productivity of crops by providing water to farmers for irrigation purposes. The PMKSY scheme focuses on the development of water resources for agricultural purposes, and it has four components.",
+     "Eligibilty_criteria": " Available to all farmers in India who are dependent on irrigation for their crops, as well as to other stakeholders involved in the irrigation supply chain. The scheme is primarily implemented by state governments, and interested farmers and stakeholders can contact the State Irrigation Department or the concerned nodal agency in their state to apply for the scheme.",
+     "Links": "https:\/\/pmksy.gov.in\/"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Pradhan Mantri Krishi Sampada Yojana (PMKSY)",
+     "Description": "This scheme aims to promote food processing industries and create employment opportunities in rural areas. The scheme includes various components such as infrastructure development, value addition, and market linkage.",
+     "Eligibilty_criteria": "Farmers, individuals, groups of farmers, cooperatives, companies, NGOs, and other organizations involved in the agriculture and food processing sector can apply for the scheme.\n\nThe scheme is open to all states and union territories in India.\n\nThe applicant should have a valid business plan and project report for the proposed food processing project.\n\nThe project should be technically and financially viable, and should have the potential to generate employment opportunities.\n\nThe project should adhere to all relevant regulations and guidelines related to food safety, quality, and standards.\n\nThe applicant should have the necessary infrastructure and facilities to undertake food processing activities.\n\nThe applicant should have a good track record and financial history, and should not have defaulted on any previous loans or government schemes.",
+     "Links": "https:\/\/pmksy.gov.in\/"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Kisan Credit Card Scheme",
+     "Description": "This scheme provides farmers with credit facilities to meet their agricultural needs. To apply for the Kisan Credit Card scheme, farmers can approach any bank branch or cooperative society that is authorized to issue KCCs. The application process is straightforward and involves submitting basic identity and address proofs, as well as land and crop-related documents, to the bank or cooperative society.",
+     "Eligibilty_criteria": "all farmers in India, including small and marginal farmers, sharecroppers, oral lessees, and tenant farmers, are eligible to apply for the Kisan Credit Card scheme. The scheme aims to provide farmers with access to affordable credit for their agricultural activities, and the application process is simple and easy to follow.",
+     "Links": "https:\/\/pib.gov.in\/FactsheetDetails.aspx?Id=148600"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Soil Health Card Scheme",
+     "Description": "This scheme aims to provide soil health cards to farmers, which contain information about the soil quality and fertility of their land. Under the Soil Health Card Scheme, soil health cards are issued to farmers after their soil samples are tested in accredited soil testing labs. These cards contain information on the soil health status of the farmer's land and provide recommendations on the type and quantity of nutrients that need to be added to the soil to improve its fertility.",
+     "Eligibilty_criteria": "all farmers in India can apply for the Soil Health Card Scheme. The scheme is implemented through a network of soil testing labs, and farmers can apply by contacting their nearest agriculture department office or visiting the website of the Department of Agriculture and Cooperation.",
+     "Links": "https:\/\/soilhealth.dac.gov.in\/"
+    },
+    {
+     "State": "UP",
+     "Scheme_Name": "Mukhyamantri Kisan Khet Sadak Yojana (MKKSY)",
+     "Description": "This scheme aims to provide all-weather road connectivity to the farms and enable farmers to transport their produce to the market easily.",
+     "Eligibilty_criteria": "The farmer should be a resident of Haryana state.\n\nThe farmer should own agricultural land.\n\nThe agricultural land should not be less than 2.5 acres in area.\n\nThe land should be located in a village that is not already connected by an all-weather road.\n\nThe farmer should not have any criminal record.\n\nThe farmer should not have any outstanding loans with any financial institution.\n\nThe farmer should have a valid Aadhaar card.\n",
+     "Links": "https:\/\/upagriculture.com\/"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "1.Mukhyamantri Krishi Ashirwad Yojna",
+     "Description": "Mukhya Mantri Krishi AashirwadYojna is an ambitious scheme of the state government aimed at improving the financial situation of farmers and provide them with timely investment support before the start of the Kharif season. Benefits Marginal and small farmers will be given Rs 5000 per acre per year (maximum up to 5 Acres) through Direct Benefit Transfer in their bank account.",
+     "Eligibilty_criteria": "All the small and marginal farmers of the state, who have arable land up to a maximum of 5 acres are eligible to apply under the scheme.",
+     "Links": "मुख्यमंत्री कृषि आशीर्वाद योजना | जिला हजारीबाग, झारखंड सरकार | भारत"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "2.Jharkhand Krishi Rin Mafi Yojana",
+     "Description": "Jharkhand Krishi Rin Mafi Yojana, launched by the Jharkhand state government on 1 February 2021 is an agriculture loan waiver scheme for the farmers of Jharkhand. Benefits Under the scheme, the state government will waive loans of farmers upto Rs. 50,000 per farmer.",
+     "Eligibilty_criteria": " Must be a permanent resident of Jharkhand state.  The small and marginal farmers who have taken the loan using the Kisan Credit Card  Must be a farmer who self-cultivates his \/ her land OR farmers who cultivate in leased land  Must be at-least 18 years of age.  Only 1 farmer per family is allowed for loan waiver  The loan must have been availed from banks before 31 March 2020. Documents needed for application  Aadhaar number.  Ration card  Kisan Credit Card (KCC)",
+     "Links": "झारखण्ड कृषि ऋण माफी योजना"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "3.Jharkhand Kisan Fasal Rahat Yojana",
+     "Description": "Jharkhand Kisan Fasal Rahat Yojana aims to provide security cover to Jharkhand farmers in case of crop damage due to natural calamity",
+     "Eligibilty_criteria": " Farmers must be residents of Jharkhand.  Should be Small and marginal farmers  Both land and landless  Implementation agency",
+     "Links": "झारखण्ड राज्य फसल राहत योजना"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "4. Samakit Birsa Gram Vika Yojana cum Krishak Pathshala.",
+     "Description": "points  Under this scheme, one agriculture farm in every district will be selected.  Will be provided with various state-of the art technologies and tools of modern –day farming for horticulture, livestock’s rearing and pisciculture apart from new irrigation techniques.  Through this scheme, the farmers will be provided training and will be empowered to increase their incomes.  An approximate budget of Rs.50 crore has been allotted for the scheme for the fiscal year of 2021-22.",
+     "Eligibilty_criteria": "Farmer must be from jharkhand",
+     "Links": "Jharkhand Samekit Birsa Gram Vikas Yojana (Krishak Pathshala) 2023 | झारखण्ड समेकित बिरसा ग्राम विकास योजना (कृषक पाठशाला) Details"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "5. Birsa Kisan Yojana (BKY)",
+     "Description": "Jharkhand Chief Minister Hemant Soren announces new scheme details Birsa Kisan Yojana. This is a unique project start by the government for the betterment of farmers. In this scheme state government will make a unique ID card with a barcode for every farmer of Jharkhand state. With the help of this unique ID card, farmers can take benefit of different government schemes without any middleman. This initiative will also decrease the number of frauds that are held with farmers.",
+     "Eligibilty_criteria": "Under Birsa Kisan Scheme, the government will generate a unique ID card. This card will be generated after the registration of the farmer.  Farmers who want to register for this scheme have to carry their Aadhaar card with them.  Only one bank account will be linked to one phone number that you want to register.  The facility of direct bank transfer (DBT) is available for one bank account.  Enrollment of farmers will be held in Pragya Kendra. In enrollment, the farmer can do their KYC with the help of an Aadhar card.  At the time of enrolment, farmers have to provide all the regarding land. Land details are available on the revenue department website.",
+     "Links": "बिरसा किसान योजना झारखंड 2023, पंजीकरण, फॉर्म (Birsa Kisan Yojana Jharkhand)"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "7. Meethi Kranti Yojana (Sweet Revolution Scheme)",
+     "Description": "A scheme for farmers called as Meethi Kranti Yojana (Sweet Revolution Scheme). Bee keeping training along with the unit worth Rs. 1 lakh will be given by the government. Farmers can start a side business of bee keeping &amp; selling honey. Rs. 80,000 will be given as a grant where as farmers needs to invest Rs. 20,000. The objective of the scheme is to qua",
+     "Links": "Sweet Revolution (Mithi Kranti)- Steps towards doubling farmers Income - MyGov Blogs"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "8. Interest Free Farm Loan Scheme",
+     "Description": "Jharkhand farmers will now get farm loan on zero percent interest rate. Jharkhand Government has made an announcement of the Interest Free Farm Loan Scheme. The interest free loan is only for the first year and hence farmers needs to pay the loan in 1st year. The interest for the loan for the first year will be paid by the government. If farmers cannot repay in one year then he needs to pay interest rate on the agricultural loan.",
+     "Links": "https:\/\/www.indiafilings.com\/learn\/interest-free-farm-loan-scheme\/"
+    },
+    {
+     "State": "Jharkhand",
+     "Scheme_Name": "9. Attracting &amp; Retaining Youth in Agriculture (ARYA) Scheme",
+     "Description": "To engage and encourage Youth in Agriculture, the Government of Jharkhand has launched Attracting and Retaining Youth in Agriculture (ARYA) Scheme for the youth. Under the ARYA scheme, the state government attract rural youth in agriculture by providing them skill training and make the state self-dependent in agriculture. The aim is to engaging youth in agriculture and promotes the green revolution in the state. In this scheme, Agriculture Technology Management and Training (ATMA) provide training to the rural youth in the state and for this, two youths from each village selected for the training. Selected youth will get training about agriculture like how to properly use of barren land, uncultivated land, and inspired youth to grow food grains. Agriculture is one of the pre-eminent sectors of Jharkhand’s rural economy. The Agriculture and Allied sector has recorded an impressive average annual growth of above 5 percent between 2011-12 and 2015-16. Such type of scheme helps and encourage youth towards agriculture sector and Jharkhand government took excellent initiatives for the future",
+     "Links": "https:\/\/ataribengaluru.icar.gov.in\/docs\/pub\/2.pdf"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Prakritik Kheti Khushaal Kisan Yojana",
+     "Description": "This scheme aims to promote organic farming and provide financial assistance to farmers to adopt organic farming practices. The scheme covers the cost of organic inputs and provides a subsidy for organic farming equipment.",
+     "Eligibilty_criteria": "The applicant must be a farmer or a group of farmers practicing agriculture in Himachal Pradesh. The landholding of the farmer should not exceed 5 acres.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/prakritik-kheti-khushhal-kisan-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Mukhya Mantri Khet Sanrakshan Yojana",
+     "Description": "This scheme aims to provide financial assistance to farmers for the construction of protective structures such as barbed wire fencing, stone walls, and trenches to protect their crops from wild animals.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh.",
+     "Links": "https:\/\/hpgeneralstudies.com\/what-is-mukhya-mantri-khet-sanrakshan-yojana\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Himachal Pradesh Horticulture Development Project",
+     "Description": "This scheme aims to promote the horticulture sector in Himachal Pradesh by providing financial assistance for the establishment of orchards, the adoption of modern farming techniques, and the creation of post-harvest infrastructure.",
+     "Eligibilty_criteria": "The applicant must be a farmer or a group of farmers practicing horticulture in Himachal Pradesh. The landholding of the farmer should not exceed 5 acres.",
+     "Links": "https:\/\/hds.hp.gov.in\/GeneralpageWithTemplate.aspx?key=HOMEKEY0001"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Mukhya Mantri Greenhouse\nRenovation Scheme (MMGRS)",
+     "Description": "This scheme aims to promote greenhouse farming in Himachal Pradesh by providing financial assistance for the construction of greenhouses and purchase of equipment for climate control.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh. The landholding of the farmer should not exceed 1 acre.",
+     "Links": "https:\/\/eudyan.hp.gov.in\/UploadedImages\/Document\/Mukhya%20Mantri%20Green%20House%20Renovation%20Scheme.pdf"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Himachal Pradesh Agriculture Marketing Board",
+     "Description": "This scheme aims to provide a market for agricultural produce and ensure fair prices to farmers in Himachal Pradesh. The scheme covers the construction of market yards, grading and sorting facilities, and transportation facilities for agricultural produce.",
+     "Eligibilty_criteria": "The applicant must be a farmer or a group of farmers practicing agriculture in Himachal Pradesh.",
+     "Links": "https:\/\/www.hpsamb.org\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Flow Irrigation Scheme",
+     "Description": "The Follow Irrigation Scheme aims to promote efficient water management in agriculture by providing financial assistance for the establishment of follow irrigation systems. Follow irrigation is a technique where irrigation water is applied to one crop, and the excess water is used to irrigate the next crop downstream. This technique helps in conserving water and improving the efficiency of water use. The scheme covers the cost of follow irrigation systems, including pipelines, pumps, and other necessary equipment.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh. The landholding of the farmer should not exceed 5 acres. The applicant must have a source of irrigation water and must be willing to adopt follow irrigation techniques. The scheme is applicable for all types of crops, including fruits, vegetables, and cereals.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/flow-irrigation-scheme\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Rajya Krishi Yantrikaran Programme",
+     "Description": "This scheme aims to provide financial assistance for the purchase of farm machinery and equipment to farmers in Himachal Pradesh. The scheme covers a subsidy for the purchase of tractors, power tillers, harvesters, and other agricultural equipment.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/state-agricultural-mechanisation\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Prakritik Kheti Khushhal Kisan Yojna",
+     "Description": "This scheme aims to promote organic farming practices in Himachal Pradesh by providing financial assistance for the adoption of organic farming techniques, including composting, vermicomposting, and organic inputs. The scheme covers the cost of organic inputs, training and capacity building for farmers, and support for marketing and value addition activities.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/prakritik-kheti-khushhal-kisan-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Mukhyamantri Kisaan evam Khetihar Mazdoor Jeevan Suraksha Yojna",
+     "Description": "This scheme aims to provide life insurance cover to farmers and agricultural workers in Himachal Pradesh. The scheme covers accidental and natural death and provides financial assistance to the nominee in case of the death of the insured.",
+     "Eligibilty_criteria": "The applicant must be a farmer or agricultural worker practicing in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/mukhyamantri-kisaan-evam-khetihar-mazdoor-jeevan-suraksha-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Mukhyamantri Nutan Polyhouse Pariyojna",
+     "Description": "This scheme aims to promote protected cultivation practices in Himachal Pradesh by providing financial assistance for the establishment of polyhouses. The scheme covers the cost of the construction of polyhouses and other necessary equipment.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh. The landholding of the farmer should not exceed 1 acre.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/mukhyamantri-nutan-polyhouse-pariyojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Mukhyamantri Krishi Utpadan Sanrakshan Yojna",
+     "Description": "This scheme aims to provide financial assistance to farmers for the purchase of crop insurance to protect them from crop losses due to natural calamities and other unforeseen events. The scheme covers crop losses due to floods, droughts, landslides, and other natural calamities.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/mukhya-mantri-krishi-utpadan-sanrakshan-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Krishi se Sampannta Yojna",
+     "Description": "This scheme aims to promote the establishment of agriculture-related industries in Himachal Pradesh by providing financial assistance for the establishment of agro-processing units, storage facilities, and marketing infrastructure.",
+     "Eligibilty_criteria": "The applicant must be an entrepreneur or a group of entrepreneurs planning to establish an agriculture-related industry in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/krishi-se-sampannta-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Jal se Krishi ko Bal Yojna",
+     "Description": "This scheme aims to promote efficient water management in agriculture by providing financial assistance for the establishment of micro-irrigation systems, including drip irrigation and sprinkler irrigation. The scheme covers the cost of micro-irrigation systems, including pipelines, pumps, and other necessary equipment.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/jal-se-krishi-ko-bal-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Mukhyamantri Krishi Samvardhan Yojna",
+     "Description": "This scheme aims to promote the development of agriculture and horticulture sectors in Himachal Pradesh by providing financial assistance for the establishment of irrigation facilities, water conservation measures, and land development activities.",
+     "Eligibilty_criteria": "The applicant must be a farmer practicing agriculture or horticulture in Himachal Pradesh.",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/mukhya-mantri-krishi-samvardhan-yojna\/"
+    },
+    {
+     "State": "Himachal Pradesh",
+     "Scheme_Name": "Tea and Coffee Cultivation Scheme",
+     "Description": "This scheme aims to promote the cultivation of tea and coffee in the Kangra valley of Himachal Pradesh by providing financial assistance for the establishment of tea and coffee plantations, processing units, and marketing infrastructure.",
+     "Eligibilty_criteria": "The applicant must be an entrepreneur or a group of entrepreneurs planning to establish a tea or coffee plantation in the",
+     "Links": "https:\/\/agriculture.hp.gov.in\/en\/our-scheme\/tea-cultivation-scheme-cofee-production\/"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "National Food Security Mission NFSM 60:40",
+     "Description": "To increase food grain production by providing technical and financial assistance to farmers in selected districts of Haryana",
+     "Eligibilty_criteria": "Farmers in selected districts of Haryana",
+     "Links": "https:\/\/www.nfsm.gov.in\/"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Rashtriya Krishi Vikas Yojana RKVY-RAFTAAR",
+     "Description": "To incentivize states to increase their agriculture and allied sector investment and improve overall performance in these sectors",
+     "Eligibilty_criteria": "Farmers and agricultural institutions in Haryana",
+     "Links": "https:\/\/www.manage.gov.in\/managecia\/RKVYProg.aspx"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Reclamation of Saline soils and Waterlogged Land in the State",
+     "Description": "To reclaim and utilize saline and waterlogged land in Haryana for agricultural purposes",
+     "Eligibilty_criteria": "Farmers in Haryana with saline or waterlogged land",
+     "Links": "https:\/\/agriharyana.gov.in\/hopp"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Promotion of Summer Moong under CDP",
+     "Description": "To promote the cultivation of summer moong in Haryana through various interventions such as seed distribution, training, and technical assistance",
+     "Eligibilty_criteria": "Farmers in Haryana",
+     "Links": "https:\/\/agriharyana.gov.in\/SummerMoong"
+    },
+    {
+     "State": "Haryana",
+     "Scheme_Name": "Natural Farming - Promotion of Sustainable agriculture strategies initiative &amp; Kisan kalyan",
+     "Description": "To promote sustainable agriculture practices and provide financial assistance to farmers in Haryana",
+     "Eligibilty_criteria": "Farmers in Haryana",
+     "Links": "https:\/\/agriharyana.gov.in\/naturalfarming"
+    },
+    {
+     "State": "Bihar",
+     "Scheme_Name": "Mukhyamantri Kisan Sahayata Yojana",
+     "Description": "To provide financial assistance to small and marginal farmers in Bihar",
+     "Eligibilty_criteria": "Small and marginal farmers in Bihar",
+     "Links": "https:\/\/pacsonline.bih.nic.in\/fsy\/login.aspx"
+    },
+    {
+     "State": "Bihar",
+     "Scheme_Name": "Mukhyamantri Harit Krishi Sanyantra Yojana",
+     "Description": "To provide subsidy for purchasing agriculture machinery to farmers in Bihar",
+     "Eligibilty_criteria": "Farmers in Bihar",
+     "Links": "https:\/\/www.indiafilings.com\/learn\/mukhyamantri-harit-krishi-sanyantra-yojana\/"
+    },
+    {
+     "State": "Bihar",
+     "Scheme_Name": "Bihar Kisan Credit Card Scheme",
+     "Description": "To provide credit facilities to farmers for agricultural and allied activities in Bihar",
+     "Eligibilty_criteria": "Farmers in Bihar",
+     "Links": "https:\/\/biharonlineportal.com\/kisan-credit-card-online-apply\/"
+    },
+    {
+     "State": "Bihar",
+     "Scheme_Name": "Bihar Rajya Beej Nigam Limited",
+     "Description": "To ensure the availability of quality seeds to farmers in Bihar",
+     "Eligibilty_criteria": "Farmers in Bihar",
+     "Links": "https:\/\/brbn.bihar.gov.in\/"
+    },
+    {
+     "State": "Bihar",
+     "Scheme_Name": "Bihar Kisan Samman Nidhi Yojana",
+     "Description": "To provide financial assistance to farmers in Bihar for the purchase of inputs and for agricultural operations",
+     "Eligibilty_criteria": "Farmers in Bihar",
+     "Links": "https:\/\/dbtagriculture.bihar.gov.in\/PMKisan\/Print_PMKISANNew.aspx"
+    },
+    {
+     "State": "Bihar",
+     "Scheme_Name": "Mukhyamantri Nischay Schemes",
+     "Description": "Various schemes under Mukhyamantri Nischay Yojana to provide assistance to farmers for agriculture and allied activities in Bihar",
+     "Eligibilty_criteria": "Farmers in Bihar",
+     "Links": "https:\/\/www.7nishchay-yuvaupmission.bihar.gov.in\/"
+    }
+   ]
