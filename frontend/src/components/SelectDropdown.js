@@ -59,7 +59,6 @@ export default function SelectDropdown() {
                         <option value="Delhi">Delhi</option>
                         <option value="Odisha">Odisha</option>
                         <option value="Punjab">Punjab</option>
-                        <option value="UP">UP</option>
                         <option value="Jharkhand">Jharkhand</option>
                         <option value="Himachal Pradesh">Himachal Pradesh</option>
                         <option value="Haryana">Haryana</option>
