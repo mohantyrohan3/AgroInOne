@@ -1,14 +1,75 @@
-import React from 'react'
+import * as React from 'react';
 import  '../App.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../images/logo.png';
 // import {Link} from "react-router-dom";
+import app from "../config/firebaseConfig";
+import { getAuth, signInWithPopup, GoogleAuthProvider,onAuthStateChanged,signOut} from "firebase/auth";
+import {useNavigate} from "react-router-dom";
+
+
+
+
+
 
 function NavBar() {
+  const navigate = useNavigate();
+  const [login, setLogin] = React.useState('LOGIN');
+
+  React.useEffect(() => {
+    const auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // const uid = user.uid;
+        setLogin('LOGOUT');
+      } else {
+        setLogin("LOGIN");
+      }
+    });
+  });
+
+
+
+  const logout = ()=>{
+    const auth = getAuth();
+    signOut(auth).then(() => {
+      setLogin('LOGIN');
+      navigate('/', { replace: true });
+    }).catch((error) => {
+
+    });
+  }
+
+
+  const googleLogin = ()=>{
+    const auth = getAuth();
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // const credential = GoogleAuthProvider.credentialFromResult(result);
+        // // const token = credential.accessToken;
+        // const user = result.user;
+        // console.log(user);
+        navigate('/', { replace: true });;
+      }).catch((error) => {
+        // const errorCode = error.code;
+        // const errorMessage = error.message;
+        // const email = error.customData.email;
+        // const credential = GoogleAuthProvider.credentialFromError(error);
+      });
+  }
+
+
+
+
+
+
+
+
+
   return (
     <Container className="mt-4">
       {/*   // bg="light" variant="light" */}
@@ -25,26 +86,18 @@ function NavBar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" bg="dark" />
           <Navbar.Collapse id="responsive-navbar-nav" bg="dark">
             <Nav className="me-auto">
-              {/*             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
             </Nav>
             <Nav>
               <Nav.Link href="/" className="pe-3 nav-bar" style={{ color: 'black' }}>HOME</Nav.Link>
               <Nav.Link href="/shop" className="pe-3  nav-bar" style={{ color: 'black' }} >SHOP</Nav.Link>
               <Nav.Link href="/schemes" className="pe-3  nav-bar" style={{ color: 'black' }} >SCHEMES</Nav.Link>
               <Nav.Link href="helpdesk" className="pe-3  nav-bar" style={{ color: 'black' }} >HELPDESK</Nav.Link>
-              <Nav.Link href="/login" className="pe-3  nav-bar" style={{ color: 'black' }} >LOGIN</Nav.Link>
+                      {login==="LOGIN" ? (
+                        <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'black' }} >{login}</Nav.Link>
+                  ) : (
+                    <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'black' }} >{login}</Nav.Link>
+                  )}
+                
             </Nav>
           </Navbar.Collapse>
         </Container>

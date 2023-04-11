@@ -8,7 +8,7 @@ import '../App.css'
 import veggies from "../images/veggies.jpg"
 import images from "../images//images.jpg"
 import scheme from "../images/scheme.png";
-
+import {Link} from "react-router-dom";
 
 
 
@@ -26,7 +26,8 @@ function SecondCard() {
                 <Card.Text className="card-below-text">
                   Welcome to our agriculture website, where we celebrate the beauty and bounty of the farming world. From seed to harvest, we're passionate about sharing the latest trends, tips, and insights that help you cultivate a thriving farm and nourish your community. Come grow with us!
                 </Card.Text>
-                <Button size="lg" className='home-shop-button' variant="primary">SHOP NOW</Button>
+                <Link to="/shop"><Button size="lg" className='home-shop-button' variant="primary">SHOP NOW</Button></Link>
+                
 
               </Card.Body>
             </Card>
