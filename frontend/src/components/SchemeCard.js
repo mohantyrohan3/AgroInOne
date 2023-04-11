@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styles from "./Schemecard.css"
+import "./Schemecard.css"
 import Container from 'react-bootstrap/Container';
 
 
