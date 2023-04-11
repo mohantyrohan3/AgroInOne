@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /src/config/firebaseConfig.js
+/src/api/helpdesk.js
 /.pnp
 .pnp.js
 
