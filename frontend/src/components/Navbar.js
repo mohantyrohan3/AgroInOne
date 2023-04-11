@@ -8,7 +8,7 @@ import logo from '../images/logo.png';
 // import {Link} from "react-router-dom";
 import app from "../config/firebaseConfig";
 import { getAuth, signInWithPopup, GoogleAuthProvider,onAuthStateChanged,signOut} from "firebase/auth";
-import { redirect,useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 
 
@@ -23,7 +23,7 @@ function NavBar() {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        const uid = user.uid;
+        // const uid = user.uid;
         setLogin('LOGOUT');
       } else {
         setLogin("LOGIN");
@@ -33,45 +33,33 @@ function NavBar() {
 
 
 
+  const logout = ()=>{
+    const auth = getAuth();
+    signOut(auth).then(() => {
+      setLogin('LOGIN');
+      navigate('/', { replace: true });
+    }).catch((error) => {
+
+    });
+  }
+
 
   const googleLogin = ()=>{
     const auth = getAuth();
-    if(login=='LOGOUT'){
-      signOut(auth).then(() => {
-                  navigate('/', { replace: true });
-                }).catch((error) => {
-                });
-    }
-
-        onAuthStateChanged(auth, (user) => {
-          if (user) {
-                // signOut(auth).then(() => {
-                //   setLogin("LOGIN")
-                //   navigate('/', { replace: true });
-                // }).catch((error) => {
-                // });
-          }
-          
-          
-          else {
-            const provider = new GoogleAuthProvider();
-                      signInWithPopup(auth, provider)
-                        .then((result) => {
-                          const credential = GoogleAuthProvider.credentialFromResult(result);
-                          const token = credential.accessToken;
-                          const user = result.user;
-                          console.log(user);
-                          navigate('/', { replace: true });;
-                        }).catch((error) => {
-                          const errorCode = error.code;
-                          const errorMessage = error.message;
-                          const email = error.customData.email;
-                          const credential = GoogleAuthProvider.credentialFromError(error);
-                        });
-
-          }
-        });
-    
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // const credential = GoogleAuthProvider.credentialFromResult(result);
+        // // const token = credential.accessToken;
+        // const user = result.user;
+        // console.log(user);
+        navigate('/', { replace: true });;
+      }).catch((error) => {
+        // const errorCode = error.code;
+        // const errorMessage = error.message;
+        // const email = error.customData.email;
+        // const credential = GoogleAuthProvider.credentialFromError(error);
+      });
   }
 
 
@@ -104,9 +92,12 @@ function NavBar() {
               <Nav.Link href="/shop" className="pe-3  nav-bar" style={{ color: 'black' }} >SHOP</Nav.Link>
               <Nav.Link href="/schemes" className="pe-3  nav-bar" style={{ color: 'black' }} >SCHEMES</Nav.Link>
               <Nav.Link href="helpdesk" className="pe-3  nav-bar" style={{ color: 'black' }} >HELPDESK</Nav.Link>
-              <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'black' }} >
-                {login}
-                </Nav.Link>
+                      {login==="LOGIN" ? (
+                        <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'black' }} >{login}</Nav.Link>
+                  ) : (
+                    <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'black' }} >{login}</Nav.Link>
+                  )}
+                
             </Nav>
           </Navbar.Collapse>
         </Container>
