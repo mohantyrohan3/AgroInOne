@@ -1,0 +1,92 @@
+[
+    {
+        "Name":"Shop 1",
+        "Latitude":"20.287088",
+        "Longitude":"85.743728",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 2",
+        "Latitude":"20.287130",
+        "Longitude":"85.746624",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 3",
+        "Latitude":"20.288518",
+        "Longitude":"85.742637",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 4",
+        "Latitude":"20.289897",
+        "Longitude":"85.740818",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 5",
+        "Latitude":"20.286747",
+        "Longitude":"85.741591",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 6",
+        "Latitude":"20.290360",
+        "Longitude":"85.743157",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 7",
+        "Latitude":"20.285379",
+        "Longitude":"85.745271",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 8",
+        "Latitude":"20.286365",
+        "Longitude":"85.747730",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 9",
+        "Latitude":"20.287623",
+        "Longitude":"85.747141",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    },
+    {
+        "Name":"Shop 10",
+        "Latitude":"20.288790",
+        "Longitude":"85.747012",
+        "Open_Now":"false",
+        "Owner":"",
+        "Picture":""
+
+    }
+]
