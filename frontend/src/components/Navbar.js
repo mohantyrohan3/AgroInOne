@@ -9,7 +9,7 @@ import logo from '../images/logo.png';
 import app from "../config/firebaseConfig";
 import { getAuth, signInWithPopup, GoogleAuthProvider,onAuthStateChanged,signOut} from "firebase/auth";
 import {useNavigate} from "react-router-dom";
-
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 
@@ -18,13 +18,15 @@ import {useNavigate} from "react-router-dom";
 function NavBar() {
   const navigate = useNavigate();
   const [login, setLogin] = React.useState('LOGIN');
+  const [login_name, setLoginName] = React.useState('');
 
   React.useEffect(() => {
     const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        // const uid = user.uid;
+        const uid = user.uid;
         setLogin('LOGOUT');
+        setLoginName(user.displayName);
       } else {
         setLogin("LOGIN");
       }
@@ -51,8 +53,9 @@ function NavBar() {
       .then((result) => {
         // const credential = GoogleAuthProvider.credentialFromResult(result);
         // // const token = credential.accessToken;
-        // const user = result.user;
-        // console.log(user);
+        const user = result.user;
+        console.log(user.displayName);
+        setLoginName(user.displayName);
         navigate('/', { replace: true });;
       }).catch((error) => {
         // const errorCode = error.code;
@@ -73,7 +76,7 @@ function NavBar() {
   return (
     <Container className="mt-4">
       {/*   // bg="light" variant="light" */}
-      <Navbar collapseOnSelect expand="lg" className="border-bottom border-dark">
+      <Navbar collapseOnSelect variant="dark" expand="lg" className="border-bottom border-dark">
         <Container>
           <img
             alt=""
@@ -95,9 +98,17 @@ function NavBar() {
                       {login==="LOGIN" ? (
                         <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
                   ) : (
-                    <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
+                    // <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
+                            <NavDropdown title={login_name} className="pe-3  nav-bar" style={{ color: 'white' }} id="navbarScrollingDropdown">
+                      <NavDropdown.Item href="#action3">Do something</NavDropdown.Item>
+                      <NavDropdown.Item href="#action4" onClick={logout}>
+                        {login}
+                      </NavDropdown.Item>
+                    </NavDropdown>
                   )}
                 
+
+
             </Nav>
           </Navbar.Collapse>
         </Container>
