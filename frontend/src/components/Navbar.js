@@ -88,14 +88,14 @@ function NavBar() {
             <Nav className="me-auto">
             </Nav>
             <Nav>
-              <Nav.Link href="/" className="pe-3 nav-bar" style={{ color: 'black' }}>HOME</Nav.Link>
-              <Nav.Link href="/shop" className="pe-3  nav-bar" style={{ color: 'black' }} >SHOP</Nav.Link>
-              <Nav.Link href="/schemes" className="pe-3  nav-bar" style={{ color: 'black' }} >SCHEMES</Nav.Link>
-              <Nav.Link href="helpdesk" className="pe-3  nav-bar" style={{ color: 'black' }} >HELPDESK</Nav.Link>
+              <Nav.Link href="/" className="pe-3 nav-bar" style={{ color: 'white' }}>HOME</Nav.Link>
+              <Nav.Link href="/shop" className="pe-3  nav-bar" style={{ color: 'white' }} >SHOP</Nav.Link>
+              <Nav.Link href="/schemes" className="pe-3  nav-bar" style={{ color: 'white' }} >SCHEMES</Nav.Link>
+              <Nav.Link href="helpdesk" className="pe-3  nav-bar" style={{ color: 'white' }} >HELPDESK</Nav.Link>
                       {login==="LOGIN" ? (
-                        <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'black' }} >{login}</Nav.Link>
+                        <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
                   ) : (
-                    <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'black' }} >{login}</Nav.Link>
+                    <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
                   )}
                 
             </Nav>

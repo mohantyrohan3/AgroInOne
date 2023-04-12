@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Montserrat:wght@600&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+#root{
+  min-height: 100vh;
+}
 .body{
 /*   background-color:#D1E8B6; */
   background-image:url('./images/farmer.jpg');
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
-   background-size: cover;
+  background-size: cover;
+  /* height: 100vh; */
 }
 
 
