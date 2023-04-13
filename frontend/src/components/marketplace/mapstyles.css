@@ -1,0 +1,38 @@
+.paper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    margin-bottom:0.5rem;
+    margin-right: 0.5rem;
+  }
+
+.mapContainer {
+    height: 90vh;
+    width: 60vw;
+    position: fixed;
+    /* bottom: 0.1rem; */
+  }
+
+.markerContainer {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+.markerContainer:hover {
+    z-index: 2;
+  }
+
+
+.pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .mapContainer{
+    position: static;
+    width: 80vw;
+  }
+}
