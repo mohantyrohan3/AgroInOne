@@ -6,6 +6,7 @@
 /src/api/helpdesk.js
 /.pnp
 .pnp.js
+/src/components/marketplace/Map.js
 
 # testing
 /coverage

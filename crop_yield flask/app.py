@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 l1= LabelEncoder()
 
 app = Flask(__name__)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model_pkl', 'rb'))
 
 data1= pd.read_csv("APY.csv")
 data2= pd.read_csv("APY.csv")
@@ -34,9 +34,11 @@ for i,j in zip(data1['District '],data2['District ']):
   district_dict[j]=i
 
 for i,j in zip(data1['Crop'],data2['Crop']):
+  j=j.replace(" ","")
   crop_dict[j]=i
 
 for i,j in zip(data1['Season'],data2['Season']):
+  j=j.replace(" ","")
   season_dict[j]=i
 
 # print(district_dict)
@@ -55,19 +57,25 @@ def index():
 
 @app.route('/get_selected_value', methods=['POST'])
 def get_selected_value():
-    state = request.form['selected_state']
-    district = request.form['selected_district']
-    crop = request.form['selected_crop']
-    crop_year = int(request.form['crop_year'])
-    season = request.form['selected_season']
-    area = float(request.form['area'])
-    production = float(request.form['Production'])
+    temp = request.json
+    state = temp['selected_state']
+    district = temp['selected_district']
+    crop = temp['selected_crop']
+    crop_year = int(temp['crop_year'])
+    season = temp['selected_season']
+    area = float(temp['area'])
+    production = float(temp['Production'])
     input=[[state_dict[state],district_dict[district],crop_dict[crop],crop_year,season_dict[season],area,production]]
     prediction = model.predict(input)
     result=round(prediction[0],2)
     # Use the selected value for further processing
     # For example, return it as a response, store it in a database, etc.
-    return render_template('index.html',pred_text= result)
+    # return render_template('index.html',pred_text= result)
+    a = {
+       'answer':result
+    }
+    # print(state_dict)
+    return jsonify(a)
 
 
 # Run the Flask application
