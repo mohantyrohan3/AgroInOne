@@ -53,7 +53,8 @@ def index():
     state_dropdown = sorted(list(state_dict.keys()))
     crop_dropdown = sorted(list(crop_dict.keys()))
     season_dropdown = sorted(list(season_dict.keys()))
-    return render_template('index.html', dd=district_dropdown,sd=state_dropdown,sed=season_dropdown,cd=crop_dropdown)
+    # return render_template('index.html', dd=district_dropdown,sd=state_dropdown,sed=season_dropdown,cd=crop_dropdown)
+    return "Hello world"
 
 @app.route('/get_selected_value', methods=['POST'])
 def get_selected_value():
