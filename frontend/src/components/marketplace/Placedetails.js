@@ -10,13 +10,13 @@ export default function Placedetails(props) {
     <Card elevation={6}>
     <CardMedia
       style={{ height: 350 }}
-      image={'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
+      image={props.shop.Picture}
       title={props.shop.Name}
     />
     <CardContent>
       <Typography gutterBottom variant="h5">{props.shop.Name}</Typography>
       <Box display="flex" justifyContent="space-between" my={2}>
-        <Rating name="read-only" value={Number(props.shop.Rating)} readOnly />
+        {/* <Rating name="read-only" value={Number(props.shop.Rating)} readOnly /> */}
       </Box>
       <Box display="flex" justifyContent="space-between">
         {/* <Typography component="legend">Price</Typography> */}

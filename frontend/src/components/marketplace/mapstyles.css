@@ -33,6 +33,6 @@
 @media only screen and (max-width: 900px) {
   .mapContainer{
     position: static;
-    width: 80vw;
+    width: 90vw;
   }
 }
