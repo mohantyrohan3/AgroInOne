@@ -13,6 +13,7 @@ content {
     width: 80% ;
     /* height: auto ; */
     margin: auto auto; 
+    margin-bottom: 1rem;
     /* position: absolute;  */
 }
 
@@ -42,4 +43,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3; /* Set background color for submit button on hover */
+}
+
+.h1-pred-crop{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
 }

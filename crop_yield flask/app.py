@@ -1,11 +1,13 @@
 import numpy as np
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
 import pickle
 from sklearn.preprocessing import LabelEncoder
 l1= LabelEncoder()
 
 app = Flask(__name__)
+CORS(app)
 model = pickle.load(open('model_pkl', 'rb'))
 
 data1= pd.read_csv("APY.csv")
