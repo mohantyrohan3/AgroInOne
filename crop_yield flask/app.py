@@ -150,10 +150,12 @@ def loan_predicted_value():
     else:
        txt = "Cannot be Approved"   
 
-       res = {
-          "ans":txt
-       }
-    return jsonify(res)
+    Answer = {
+       "ans":result
+      }
+
+
+    return jsonify(Answer)
 
 
 
