@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
@@ -7,6 +7,17 @@ import Button from 'react-bootstrap/Button';
 export default function PredictLoan() {
 
 
+const [Gender, setGender] = useState("");
+const [Married, setMarried] = useState("");
+const [Dependent, setDependent] = useState("");
+const [Education, setEducation] = useState("");
+const [SelfEmp, setSelfEmp] = useState("");
+const [ApInc, setApInc] = useState("");
+const [CoInc, setCoInc] = useState("");
+const [LoanAmount, setLoanAmount] = useState("");
+const [Loanterm, setLoanterm] = useState("");
+const [Credithistory, setCredithistory] = useState("");
+const [Area, setArea] = useState("");
 
 
 
@@ -19,7 +30,8 @@ export default function PredictLoan() {
 
 
 
-  
+
+
   return (
    <>
     <Container>

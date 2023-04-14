@@ -38,7 +38,7 @@ export default function Predictcard() {
 					
 				</div>
 				<div className="postcard__bar"></div>
-				<div className="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div className="postcard__preview-txt">Loan approval prediction is a critical task for financial institutions to determine the creditworthiness of loan applicants. By leveraging machine learning and data analysis techniques, it is possible to predict the likelihood of loan approval based on a variety of factors such as credit history, income, debt-to-income ratio, and employment status. Accurate loan approval prediction can help lenders make informed decisions and reduce the risk of default and financial loss</div>
 				<ul className="postcard__tagbox">
 					{/* <li className="tag__item"><i className="fas fa-tag mr-2"></i>Podcast</li>
 					<li className="tag__item"><i className="fas fa-clock mr-2"></i>55 mins.</li> */}
