@@ -1,13 +1,14 @@
 import React from 'react';
 import NavBar from '../components/Navbar'
-
+import Predictcrop from '../components/predict/Predictcrop';
 
 
 export default function PredictCrop() {
   return (
     <>
     <NavBar/>
-    <h1>Predict Crop</h1>
+    <br/>
+    <Predictcrop/>
     </>
   )
 }
