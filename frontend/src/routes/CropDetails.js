@@ -4,7 +4,7 @@ import demoData from "../components/buy/Demodata/demo";
 import FoodDetailsCard from "../components/buy/CropDetailsCard/CropDetailsCard";
 import CartHidden from "../components/buy/CartHidden/CartHidden";
 import { addToDatabaseCart, getDatabaseCart } from "../components/buy/Utilities/datbaseManager";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from "../components/buy/Header/Header";
 import { Container } from "react-bootstrap";

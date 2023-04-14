@@ -16,7 +16,7 @@ const Food = () => {
   return (
     <div className="container food-header py-5">
         {/* nav {onClick} to select food cards accord to category */}
-      <nav style={{backgroundColor: "#D1E8B6"}}>
+      <nav style={{backgroundColor: "rgb(203 203 203)" , borderRadius:'5px',width:"auto"}}>
         <a onClick={() => setCategory("Grains")}>Grains </a>
         <a onClick={() => setCategory("Nuts")}>Nuts</a>
         <a onClick={() => setCategory("Oil")}>Oil</a>
