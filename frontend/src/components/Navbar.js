@@ -94,12 +94,17 @@ function NavBar() {
               <Nav.Link href="/" className="pe-3 nav-bar" style={{ color: 'white' }}>HOME</Nav.Link>
               <Nav.Link href="/shop" className="pe-3  nav-bar" style={{ color: 'white' }} >SHOP</Nav.Link>
               <Nav.Link href="/schemes" className="pe-3  nav-bar" style={{ color: 'white' }} >SCHEMES</Nav.Link>
-              <Nav.Link href="helpdesk" className="pe-3  nav-bar" style={{ color: 'white' }} >HELPDESK</Nav.Link>
+              {/* <Nav.Link href="helpdesk" className="pe-3  nav-bar" style={{ color: 'white' }} >HELPDESK</Nav.Link> */}
+              <NavDropdown title="SERVICES" className="pe-3  nav-bar" style={{ color: 'white' }} id="nav-services">
+                      <NavDropdown.Item href="/helpdesk">HELPDESK</NavDropdown.Item>
+                      <NavDropdown.Item href="/predict">
+                        PREDICT
+                      </NavDropdown.Item>
+                    </NavDropdown>
                       {login==="LOGIN" ? (
                         <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
                   ) : (
-                    // <Nav.Link onClick={logout}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
-                            <NavDropdown title={login_name} className="pe-3  nav-bar" style={{ color: 'white' }} id="navbarScrollingDropdown">
+                            <NavDropdown title={login_name} className="pe-3  nav-bar" style={{ color: 'white' }} id="nav-login">
                       <NavDropdown.Item href="#action3">Do something</NavDropdown.Item>
                       <NavDropdown.Item href="#action4" onClick={logout}>
                         {login}
