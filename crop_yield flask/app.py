@@ -97,12 +97,6 @@ credits_dict = {'No dues':1.0,'Dues left':0.0}
 # Route for serving the React frontend
 @app.route('/')
 def index():
-    # Define your dictionary of dropdown values
-    # district_dropdown = sorted(list(district_dict.keys()))
-    # state_dropdown = sorted(list(state_dict.keys()))
-    # crop_dropdown = sorted(list(crop_dict.keys()))
-    # season_dropdown = sorted(list(season_dict.keys()))
-    # # return render_template('index.html', dd=district_dropdown,sd=state_dropdown,sed=season_dropdown,cd=crop_dropdown)
     return "Hello world"
 
 @app.route('/get_selected_value', methods=['POST'])
@@ -144,18 +138,17 @@ def loan_predicted_value():
     input= [[oi_dict[gender],oi_dict[married],oi_dict[dependent],oi_dict[education],oi_dict[self_emp],ap_income,coap_income,loan_amount,loan_term,credits_dict[credit_history],oi_dict[prop_area]]]
     prediction = loan_model.predict(input)
     result = prediction[0]
-    txt=""
     if result==1:
        txt = "Can be Approved"
     else:
        txt = "Cannot be Approved"   
 
-    Answer = {
-       "ans":result
+    a = {
+       "ans":float(result)
       }
 
 
-    return Answer
+    return jsonify(a)
 
 
 
