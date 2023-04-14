@@ -144,6 +144,7 @@ def loan_predicted_value():
     input= [[oi_dict[gender],oi_dict[married],oi_dict[dependent],oi_dict[education],oi_dict[self_emp],ap_income,coap_income,loan_amount,loan_term,credits_dict[credit_history],oi_dict[prop_area]]]
     prediction = model.predict(input)
     result = prediction[0]
+    txt=""
     if result==1:
        txt = "Can be Approved"
     else:
