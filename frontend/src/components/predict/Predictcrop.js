@@ -31,7 +31,7 @@ const [Year, setYear] = useState();
 const [Season, setSeason] = useState();
 const [Area, setArea] = useState();
 const [Production, setProduction] = useState();
-
+const [Ans, setAns] = useState();
 
 
 const handleClick = async ()=>{
@@ -47,8 +47,9 @@ const handleClick = async ()=>{
   }
 
   try{
-    let Ans = await PredictCrop(ans);
-    console.log(Ans);
+    let temp = await PredictCrop(ans);
+    // console.log(Ans);
+    setAns(temp.answer);
   }
   catch(error){
     console.log(error)
@@ -155,7 +156,7 @@ const handleClick = async ()=>{
 
         <br/>
         <p>
-          <h3>Yield :</h3>
+          <h3>Yield : {Ans}</h3>
         </p>
     </div>
         </Col>
