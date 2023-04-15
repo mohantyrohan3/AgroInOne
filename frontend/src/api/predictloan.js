@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const PredictLoan = async (inputData) => {
+export const Predictloan = async (inputData) => {
   try {
     const options = {
         method: 'POST',

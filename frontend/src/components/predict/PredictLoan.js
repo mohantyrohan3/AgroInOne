@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import { Predictloan } from '../../api/predictloan';
 
 
 
@@ -20,7 +21,39 @@ const [Credithistory, setCredithistory] = useState("");
 const [Area, setArea] = useState("");
 
 
+const [Ans, setAns] = useState("");
 
+
+
+const handleClick =  async ()=>{
+  let ans = {
+    "gender":Gender,
+    "married":Married,
+    "dependent":Dependent,
+    "education": Education,
+    "self_emp":SelfEmp,
+    "ap_income":ApInc,
+    "coap_income":CoInc,
+    "loan_amount":LoanAmount,
+    "loan_term":Loanterm,
+    "credit_history":Credithistory,
+    "prop_area":Area
+  }
+
+  try{
+    let temp = await Predictloan(ans);
+    // console.log(Ans);
+    if (temp.ans===1){
+      setAns("Loan has been approved ");
+    }
+    else{
+      setAns("Sorry your loan cannot be approved ");
+    }
+  }
+  catch(error){
+    console.log(error)
+  }
+}
 
 
 
@@ -255,14 +288,14 @@ const [Area, setArea] = useState("");
 
 
 
-              <Button variant="primary mb-2 mt-2">Submit</Button>
+              <Button variant="primary mb-2 mt-2" onClick={handleClick}>Submit</Button>
 
               <br/> 
   
 
         <br/>
         <p>
-          <h3>Loan Status :</h3>
+          <h3>Loan Status :  {Ans}</h3>
         </p>
     </div>
 
