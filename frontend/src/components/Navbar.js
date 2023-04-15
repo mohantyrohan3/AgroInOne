@@ -105,7 +105,7 @@ function NavBar() {
                         <Nav.Link onClick={googleLogin}  className="pe-3  nav-bar" style={{ color: 'white' }} >{login}</Nav.Link>
                   ) : (
                             <NavDropdown title={login_name} className="pe-3  nav-bar" style={{ color: 'white' }} id="nav-login">
-                      <NavDropdown.Item href="#action3">Do something</NavDropdown.Item>
+                      <NavDropdown.Item href="/marketplace">MARKETPLACE</NavDropdown.Item>
                       <NavDropdown.Item href="#action4" onClick={logout}>
                         {login}
                       </NavDropdown.Item>

@@ -52,7 +52,7 @@ const CartReview = () => {
           <Form>
             <Form.Group>
               <Form.Label className="my-2">Address</Form.Label>
-              <Form.Control type="text" placeholder="Bhubnaeshwar,Odisha" />
+              <Form.Control type="text" placeholder="Bhubaneswar,Odisha" />
               <Form.Label className="my-2">Phone</Form.Label>
               <Form.Control type="number" placeholder="+91" />
               <Form.Label className="my-2">Delivery Details</Form.Label>
