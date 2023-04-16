@@ -1,5 +1,11 @@
 # AgroInOne
 
+
+
+https://user-images.githubusercontent.com/100196185/232319587-48aabadc-fb3c-4f7e-850a-c7b5de9511d3.mp4
+
+
+
 ## Problem Statement
 
 Indian farmers face several challenges, including the lack of access to information, the inability to sell their crop production at a fair price, and difficulty in accessing government-aided schemes. These challenges often result in reduced profits, financial losses, and the inability to grow their business. Therefore, there is a need for a platform that can provide farmers with access to information, help them sell their crop production at a fair price, and provide information about government-aided schemes.
@@ -13,7 +19,10 @@ The website developed for Indian farmers aims to solve the challenges mentioned 
 
 * Buy and Sell: Customers can buy direct fresh vegetables from farmers without 3rd party involvement. This ensures profit for farmers as well
 
-* Machine Learning Tools: The integration of machine learning tools on the website helps farmers predict their crop production and whether they will get a loan approval.
+* Machine Learning Tools: 
+
+
+The integration of machine learning tools on the website helps farmers predict their crop production and whether they will get a loan approval.
 
 * Google Maps Integration: The Google Maps integration on the website enables customers to located agroshops near them.
 
