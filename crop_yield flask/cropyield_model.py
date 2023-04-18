@@ -49,7 +49,6 @@ rf_model = RandomForestRegressor(n_estimators=100, random_state=50)
 
 rf_model.fit(x, y)
 
-#Final Model
-final_model=rf_model
 
-pickle.dump(rf_model,open('model.pkl','wb'))
+with open('model_pkl', 'wb') as files:
+    pickle.dump(rf_model, files)

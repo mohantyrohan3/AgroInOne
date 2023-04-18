@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+content {
+    flex-grow: 1;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+    padding: 20px; /* Add padding to the form container */
+    width: 80% ;
+    /* height: auto ; */
+    margin: auto auto; 
+    margin-bottom: 1rem;
+    /* position: absolute;  */
+}
+
+
+.form-group {
+    margin-bottom: 10px; /* Add margin at the bottom of each form group */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add margin at the bottom of each label */
+}
+
+select, textarea {
+    width: 100%; /* Set the width of select and textarea to 100% */
+    padding: 5px; /* Add padding to select and textarea */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Set background color for submit button */
+    color: #fff; /* Set text color for submit button */
+    border: none; /* Remove border from submit button */
+    padding: 10px; /* Add padding to submit button */
+    cursor: pointer; /* Add cursor pointer to submit button */
+    margin-top: 10px; /* Add margin at the top of submit button */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Set background color for submit button on hover */
+}
+
+.h1-pred-crop{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}

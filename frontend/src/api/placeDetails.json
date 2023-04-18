@@ -1,92 +1,134 @@
 [
     {
         "Name":"Shop 1",
-        "Latitude":"20.287088",
-        "Longitude":"85.743728",
+        "Loaction":{
+            "lat":20.287088,
+            "lng":85.743728
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 1",
+        "Phone":1234569871,
+        "Picture":"https://fmtmagazine.in/wp-content/uploads/2021/01/Vegetable-Market.jpg",
+        "Rating":5
 
     },
     {
         "Name":"Shop 2",
-        "Latitude":"20.287130",
-        "Longitude":"85.746624",
+        "Loaction":{
+            "lat":20.287130,
+            "lng":85.746624
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 2",
+        "Phone":1234539871,
+        "Picture":"https://st2.depositphotos.com/5950876/8690/i/950/depositphotos_86907828-stock-photo-a-young-indian-man-at.jpg",
+        "Rating":4
 
     },
     {
         "Name":"Shop 3",
-        "Latitude":"20.288518",
-        "Longitude":"85.742637",
+        "Loaction":{
+            "lat":20.288518,
+            "lng":85.742637
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 3",
+        "Phone":7894561230,
+        "Picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQObdy-TDxcqm_iGV2N6JA_iMnLXW7bSeNdRP8rLI_i45E72ngGrMLGbh55AY_OtOgg7kU&usqp=CAU",
+        "Rating":1
+
 
     },
     {
         "Name":"Shop 4",
-        "Latitude":"20.289897",
-        "Longitude":"85.740818",
+        "Loaction":{
+            "lat":20.289897,
+            "lng":85.740818
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 4",
+        "Phone":4561237890,
+        "Picture":"https://ruralindiaonline.org/media/images/01-IMG_4469-MK.width-1400.jpg",
+        "Rating":4.5
 
     },
     {
         "Name":"Shop 5",
-        "Latitude":"20.286747",
-        "Longitude":"85.741591",
+        "Loaction":{
+            "lat":20.286747,
+            "lng":85.741591
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 5",
+        "Phone":7539514862,
+        "Picture":"https://i.pinimg.com/550x/f6/a1/67/f6a167d18a7b2873a78b0e1d03c45e88.jpg",
+        "Rating":2.5
 
     },
     {
         "Name":"Shop 6",
-        "Latitude":"20.290360",
-        "Longitude":"85.743157",
+        "Loaction":{
+            "lat":20.290360,
+            "lng":85.743157
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 6",
+        "Phone":7413369852,
+        "Picture":"https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2017/08/07164143/IMG_0095.jpg",
+        "Rating":5
 
     },
     {
         "Name":"Shop 7",
-        "Latitude":"20.285379",
-        "Longitude":"85.745271",
+        "Loaction":{
+            "lat":20.285379,
+            "lng":85.745271
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 7",
+        "Phone":7987318520,
+        "Picture":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1b/0d/e9/library-road-vegetable.jpg?w=1200&h=1200&s=1",
+        "Rating":3
 
     },
     {
         "Name":"Shop 8",
-        "Latitude":"20.286365",
-        "Longitude":"85.747730",
+        "Loaction":{
+            "lat":20.286365,
+            "lng":85.747730
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 8",
+        "Phone":1203789432,
+        "Picture":"https://images.moneycontrol.com/static-mcnews/2022/10/Collage-Maker-09-Oct-2022-08.44-AM-770x435.jpg?impolicy=website&width=770&height=431",
+        "Rating":4
 
     },
     {
         "Name":"Shop 9",
-        "Latitude":"20.287623",
-        "Longitude":"85.747141",
+        "Loaction":{
+            "lat":20.287623,
+            "lng":85.747141
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 9",
+        "Phone":9173468205,
+        "Picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQfS5y5W5PHkHYRvOZvV8-zYr7VG3b-ex_PrL3GsSX9LEpMqMdo7ga4sPGEBU9WfZlhTM&usqp=CAU",
+        "Rating":2
 
     },
     {
         "Name":"Shop 10",
-        "Latitude":"20.288790",
-        "Longitude":"85.747012",
+        "Loaction":{
+            "lat":20.288790,
+            "lng":85.747012
+        },
         "Open_Now":"false",
-        "Owner":"",
-        "Picture":""
+        "Owner":"Owner 10",
+        "Phone":1010109999,
+        "Picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9cpLO9lD00jtEspxpSaZqdkdij_GF7oqn5qF3myEuyxP4Sq31SiEViI9YUuaUc_Yi6n0&usqp=CAU",
+        "Rating":4.5
+
 
     }
 ]
