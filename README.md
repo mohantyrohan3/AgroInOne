@@ -37,7 +37,7 @@ The integration of machine learning tools on the website helps farmers predict t
 
 The Indian Farmers' Website is a web-based application and can be accessed from any web browser. There is no need for installation or downloads.
 
-Website - http://agroinone.rohankm.online/
+Website - https://agroinone.rohankm.live/
 
 ## Contributing
 
