@@ -8,8 +8,8 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.preprocessing import LabelEncoder
 l1=LabelEncoder()
 
-data1= pd.read_csv("https://raw.githubusercontent.com/Kirti-kn/AgroInOne/master/crop_pred%20model/APY.csv")
-data2= pd.read_csv("https://raw.githubusercontent.com/Kirti-kn/AgroInOne/master/crop_pred%20model/APY.csv")
+data1= pd.read_csv("APY.csv")
+data2= pd.read_csv("APY.csv")
 
 #filling empty values
 mn=round(data1["Production"].mean(),2)
