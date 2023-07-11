@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+          background-image: url('https://raw.githubusercontent.com/mohantyrohan3/AgroInOne/master/frontend/src/images/farmer.jpg');
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          background-color: rgb(138, 98, 61);
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        content {
+            flex-grow: 1;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+            padding: 20px; /* Add padding to the form container */
+            width: 80% ;
+            height: auto ;
+            margin: auto; /* Center the form container horizontally */
+            position: absolute; /* Set position to absolute for centering horizontally */
+            top: 0; /* Set top position to 0 for aligning with the top of the window */
+            left: 50%; /* Set left position to 50% for centering horizontally */
+            transform: translateX(-50%);
+        }
+
+
+        .form-group {
+            margin-bottom: 10px; /* Add margin at the bottom of each form group */
+        }
+
+        label {
+            display: block; /* Display labels as block elements */
+            margin-bottom: 5px; /* Add margin at the bottom of each label */
+        }
+
+        select, textarea {
+            width: 100%; /* Set the width of select and textarea to 100% */
+            padding: 5px; /* Add padding to select and textarea */
+        }
+
+        input[type="submit"] {
+            background-color: #007bff; /* Set background color for submit button */
+            color: #fff; /* Set text color for submit button */
+            border: none; /* Remove border from submit button */
+            padding: 10px; /* Add padding to submit button */
+            cursor: pointer; /* Add cursor pointer to submit button */
+            margin-top: 10px; /* Add margin at the top of submit button */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Set background color for submit button on hover */
+        }
+    </style>   
+    <title>Loan Approval Prediction</title>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h2>Fill up the details (all details are compulsory to fill)</h2>
+        <form method="post" action="/get_selected_value">
+            <div class="form-group">
+                <label for="myTextarea">Enter Loan:</label>
+                <!-- Create a textarea element for accepting float values -->
+                <textarea class="form-control" id="myTextarea" name="loan_id" rows="1" placeholder="Loan ID (Ex: LP00xxxx)"></textarea>
+            </div>
+
+
+            <div class="form-group">
+                <label for="myDropdown">Gender:</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="gender">
+                    <option value="" selected disabled hidden>
+                        Select Gender
+                    </option>
+                  {% for value in gd %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+             </div>
+
+             <div class="form-group">
+                <label for="myDropdown">Marital Status:</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="married">
+                    <option value="" selected disabled hidden>
+                        Select Marital Status
+                    </option>
+                  {% for value in md %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </div> 
+
+              <div class="form-group">
+                <label for="myDropdown">No of Dependents:</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="dependent">
+                    <option value="" selected disabled hidden>
+                        People dependent on your income
+                    </option>
+                  {% for value in dd %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="myDropdown">EDucation Level:</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="education">
+                    <option value="" selected disabled hidden>
+                        Select education
+                    </option>
+                  {% for value in ed %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="myDropdown">Are you self Employed?</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="self_emp">
+                    <option value="" selected disabled hidden>
+                        Self Employed status
+                    </option>
+                  {% for value in spd %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </div>  
+
+              <div class="form-group">
+                <label for="myTextarea">Enter your income:</label>
+                <!-- Create a textarea element for accepting float values -->
+                <textarea class="form-control" id="myTextarea" name="ap_income" rows="1" placeholder="Anual income"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="myTextarea">Enter your partner/co-applicant income:</label>
+                <!-- Create a textarea element for accepting float values -->
+                <textarea class="form-control" id="myTextarea" name="coap_income" rows="1" placeholder="Anual income"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="myTextarea">Enter Loan amount:</label>
+                <!-- Create a textarea element for accepting float values -->
+                <textarea class="form-control" id="myTextarea" name="loan_amount" rows="1" placeholder="Loan amount"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="myTextarea">Enter term of lean in months:</label>
+                <!-- Create a textarea element for accepting float values -->
+                <textarea class="form-control" id="myTextarea" name="loan_term" rows="1" placeholder="Loan amount term"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="myDropdown">Status of credit</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="credit_history">
+                    <option value="" selected disabled hidden>
+                        Any dues left or completed?
+                    </option>
+                  {% for value in cd %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </div>  
+
+              <div class="form-group">
+                <label for="myDropdown">Type of area of property:</label>
+                <!-- Create a select element for the dropdown -->
+                <select class="form-control" id="myDropdown" name="prop_area">
+                    <option value="" selected disabled hidden>
+                        Property Area Type
+                    </option>
+                  {% for value in pd %}
+                  <option value="{{ value }}">{{ value }}</option>
+                  {% endfor %}
+                </select>
+              </div>  
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <br>
+        <p>
+          <h3>Loan Status : {{ pred_text }}</h3>
+        </p>
+    </div>
+
+    <!-- <div class="wrapper">
+        <div class="content">
+        </div>
+        <footer class="bg-dark text-white text-center py-3">
+            <p>© 2023 My Website. All rights reserved.</p>
+        </footer>
+    </div> -->
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+      
+</body>
+</html>
